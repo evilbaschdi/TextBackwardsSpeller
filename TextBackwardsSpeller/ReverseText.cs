@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TextBackwardsSpeller;
+﻿namespace TextBackwardsSpeller;
 
 public class ReverseText : IReverseText
 {

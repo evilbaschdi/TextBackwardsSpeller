@@ -1,16 +1,13 @@
-﻿using System;
-
-namespace TextBackwardsSpeller;
+﻿namespace TextBackwardsSpeller;
 
 // ReSharper disable once ClassNeverInstantiated.Global
 public class Program
 {
     public static void Main(string[] args)
     {
+        var input = Console.ReadLine();
         IReverseText reverseText = new ReverseText();
-        foreach (var origin in args)
-        {
-            Console.Write($"{reverseText.ValueFor(origin)} ");
-        }
+
+        Console.Write($"{reverseText.ValueFor(input)} ");
     }
 }

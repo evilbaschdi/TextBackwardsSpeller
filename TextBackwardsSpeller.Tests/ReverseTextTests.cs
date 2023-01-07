@@ -1,10 +1,4 @@
-﻿using System.Linq;
-using AutoFixture.Idioms;
-using AutoFixture.Xunit2;
-using FluentAssertions;
-using Xunit;
-
-namespace TextBackwardsSpeller.Tests;
+﻿namespace TextBackwardsSpeller.Tests;
 
 public class ReverseTextTests
 {

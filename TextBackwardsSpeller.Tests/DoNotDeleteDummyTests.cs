@@ -1,6 +1,4 @@
-﻿using Xunit;
-
-namespace TextBackwardsSpeller.Tests
+﻿namespace TextBackwardsSpeller.Tests
 {
     /// <summary>
     ///     Do not delete this class.
