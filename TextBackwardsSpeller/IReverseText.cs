@@ -2,6 +2,4 @@
 
 namespace TextBackwardsSpeller;
 
-public interface IReverseText : IValueFor<string, string>
-{
-}
+public interface IReverseText : IValueFor<string, string>;

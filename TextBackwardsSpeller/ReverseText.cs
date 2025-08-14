@@ -4,10 +4,7 @@ public class ReverseText : IReverseText
 {
     public string ValueFor(string input)
     {
-        if (input == null)
-        {
-            throw new ArgumentNullException(nameof(input));
-        }
+        ArgumentNullException.ThrowIfNull(input);
 
         var charArray = input.ToCharArray();
         Array.Reverse(charArray);
