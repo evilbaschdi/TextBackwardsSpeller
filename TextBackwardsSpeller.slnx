@@ -1,9 +1,13 @@
-<Solution>
+﻿<Solution>
   <Configurations>
     <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TextBackwardsSpeller.Tests/TextBackwardsSpeller.Tests.csproj" />
-  <Project Path="TextBackwardsSpeller/TextBackwardsSpeller.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/TextBackwardsSpeller/TextBackwardsSpeller.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TextBackwardsSpeller.Tests/TextBackwardsSpeller.Tests.csproj" />
+  </Folder>
 </Solution>
