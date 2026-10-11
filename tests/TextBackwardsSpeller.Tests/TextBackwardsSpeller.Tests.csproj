@@ -16,20 +16,20 @@
 		<Using Include="AutoFixture.Idioms" />
 		<Using Include="AutoFixture.Xunit3" />
 		<Using Include="EvilBaschdi.Testing" />
-		<Using Include="FluentAssertions" />
+		<Using Include="AwesomeAssertions" />
 		<Using Include="Xunit" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="EvilBaschdi.Core" />
 		<PackageReference Include="EvilBaschdi.Testing" />
-		<PackageReference Include="xunit.v3.mtp-v2" />
+		<PackageReference Include="xunit.v3" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" />
 		<PackageReference Include="coverlet.collector">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="FluentAssertions.Analyzers">
+		<PackageReference Include="AwesomeAssertions.Analyzers">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
 		</PackageReference>
